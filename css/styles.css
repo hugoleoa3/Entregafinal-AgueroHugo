@@ -1,8 +1,15 @@
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 1%;
     background-color: #f9e8e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+*
 .grid {
     background-color: #f9e8e7;
     display: grid;
@@ -33,38 +40,8 @@ body {
     margin-bottom: 20px;
 }
 
-/* Estilos para el texto de párrafos */
-.parrafos {
-    font-size: 20px;
-    color: #fcf5f4;
-    text-shadow: #000;
-    background-color: #cf6c64;
-    justify-content: center;
-    opacity: 70%;
-}
-.parrafos3 {
-    font-size: 20px;
-    color: #fcf5f4;
-    text-shadow: #000;
-    justify-content: center;
-    opacity: 70%;
-    background-color: #cf6c64;
-}
 
-/* Estilos para el texto de Argentina */
-.Argentina {
-    font-size: 40px;
-    color: #c4544a;
-    margin-top: 10px;
-}
-
-/* Estilos para el título */
-.titulo {
-    font-size: 40px;
-    text-align: center;
-    color: #fff;
-}
-
+/*
 nav {
     height: 100px;
     background-color: #000;
@@ -95,10 +72,6 @@ nav ul {
     overflow: hidden;
 }
 
-.textocontacto {
-    border-radius: 10px;
-}
-
 nav ul li {
     float: left;
     margin-right: 20px;
@@ -114,9 +87,14 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #555;
+}*/
+
+.textocontacto {
+    border-radius: 10px;
 }
 
 /* Estilos para el menú desplegable */
+/*
 .dropdown {
     position: relative;
 }
@@ -142,7 +120,7 @@ nav ul li a:hover {
 
 .dropbtn {
     display: block;
-}
+}*/
 
 .grid2 {
     background-color: rgb(209, 190, 190);
@@ -273,12 +251,12 @@ nav ul li a:hover {
 
     .grid {
         grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
-        gap: 10px; /
+        gap: 10px; 
     }
 
     .grid2 {
         grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
-        gap: 10px; /
+        gap: 10px; 
     }
 
     .flex-itemtitulo {
@@ -286,15 +264,16 @@ nav ul li a:hover {
         height: auto; /* Ajustar la altura automáticamente */
     }
 
+    /*
     nav {
-        flex-direction: column; /* Apilar elementos en una columna */
-        height: auto; /* Ajustar la altura automáticamente */
+        flex-direction: column; 
+        height: auto; 
     }
 
     nav ul li {
-        margin-right: 0; /* Eliminar el margen derecho */
-        margin-bottom: 10px; /* Añadir margen inferior para separación */
-    }
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }*/
 
     .grid-item {
         font-size: 20px; 
