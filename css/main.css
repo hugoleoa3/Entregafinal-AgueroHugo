@@ -22,8 +22,10 @@
 
 .parrafos3 {
   font-family: "Nunito", sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
   color: #fcf5f4;
+  margin-bottom: 20px;
   text-shadow: #000;
   justify-content: center;
   opacity: 70%;
@@ -271,6 +273,7 @@ body {
   .cuadrovideo iframe {
     width: 100%;
     height: auto;
+    background-color: transparent
 }
 }
 footer.pies {
