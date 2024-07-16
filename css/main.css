@@ -227,6 +227,8 @@ body {
   grid-row-start: 2;
   grid-column-end: 6;
   grid-row-end: 8;
+  max-width: 100%;
+  height: auto
 }
 .grid2 .grid-item2:nth-child(8) {
   background-color: rgba(207, 18, 18, 0.6);
@@ -265,6 +267,8 @@ body {
   }
   .grid-item {
     font-size: 20px;
+    max-width: 100%;
+    height: auto
   }
   .grid-item2,
   .grid-item3 {
@@ -273,7 +277,6 @@ body {
   .cuadrovideo iframe {
     width: 100%;
     height: auto;
-    background-color: transparent
 }
 }
 footer.pies {
@@ -311,6 +314,10 @@ footer.pies .cuadropies {
   width: 100%;
   animation: wave 2s infinite;
   max-width: 300px;
+}
+.mapa {
+    max-width: 100%;
+    height: auto
 }
 
 @keyframes wave {
