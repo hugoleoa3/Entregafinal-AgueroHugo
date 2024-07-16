@@ -13,7 +13,11 @@
   text-shadow: #000;
   background-color: #cf6c64;
   justify-content: center;
-  opacity: 70%;
+  opacity: 70%;}
+
+  .parrafos {
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .parrafos3 {
@@ -28,9 +32,10 @@
 
 .Argentina {
   font-family: "Nunito", sans-serif;
-  font-size: 40px;
   color: #c4544a;
   margin-top: 10px;
+  font-size: 1.25rem;
+  margin: 0;
 }
 
 .titulo {
@@ -263,6 +268,10 @@ body {
   .grid-item3 {
     background-size: contain; /* Ajustar el tamaño de fondo para pantallas pequeñas */
   }
+  .cuadrovideo iframe {
+    width: 100%;
+    height: auto;
+}
 }
 footer.pies {
   position: fixed;
@@ -292,10 +301,13 @@ footer.pies .cuadropies {
   justify-content: center;
   align-items: center;
 }
+.flag-container {
+  margin: 20px 0;}
 
 .animated-flag {
   width: 100%;
   animation: wave 2s infinite;
+  max-width: 300px;
 }
 
 @keyframes wave {
